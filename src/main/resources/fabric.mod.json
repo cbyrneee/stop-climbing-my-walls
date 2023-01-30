@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "stop-climbing-my-walls",
+  "version": "${version}",
+  "name": "Stop Climbing My Walls",
+  "description": "Stop those pesky spiders from climbing walls with a game rule!",
+  "authors": [
+    "Caoimhe Byrne"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/stop-climbing-my-walls",
+    "sources": "https://github.com/cbyrneee/stop-climbing-my-walls",
+    "issues": "https://github.com/cbyrneee/stop-climbing-my-walls/issues/new"
+  },
+  "license": "MIT",
+  "icon": "assets/stop-climbing-my-walls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.cbyrne.stopclimbingmywalls.StopClimbingMyWalls"
+    ]
+  },
+  "mixins": [
+    "stop-climbing-my-walls.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "minecraft": ">=1.19.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

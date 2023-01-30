@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.cbyrne.stopclimbingmywalls.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SpiderEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
